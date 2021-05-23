@@ -6,7 +6,7 @@ const NothingSelected = () => {
             <p>
                 select something
                 <br />
-                entry dfdfd
+                entry 
             </p>
             <i className='far fa-star fa-4x mt-5'></i>
         </div>

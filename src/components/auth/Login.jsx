@@ -29,7 +29,7 @@ const Login = () => {
   return (
     <>
       <h3 className='auth__title'>Login</h3>
-      <form onSubmit={handlelogin}>
+      <form onSubmit={handlelogin} className='animate__animated animate__fadeIn animate__faster'>
         <input onChange={inputChange} value={email} className='auth__input' type="text" name="email" id="" autoComplete='off' placeholder="Email" />
         <input onChange={inputChange} value={password} className='auth__input' type="password" name="password" id="" placeholder="Password" />
         <button disabled={loading} className='btn btn-primary btn-block' type="submit">Login</button>
